@@ -7,7 +7,8 @@
     "url": "git+https://github.com/jeremy-code/pnpm-changesets-staged-publishing.git"
   },
   "scripts": {
-    "build": "tsdown"
+    "build": "tsdown",
+    "ci:publish": "./scripts/publish-script.sh"
   },
   "files": [
     "dist"
