@@ -1,0 +1,41 @@
+{
+  "name": "@jeremynguyen/pnpm-changesets-staged-publishing",
+  "version": "0.0.0",
+  "private": "false",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremy-code/pnpm-changesets-staged-publishing.git"
+  },
+  "scripts": {
+    "build": "tsdown"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@changesets/changelog-github": "^1.0.1",
+    "@changesets/cli": "^3.0.3",
+    "tsdown": "^0.23.0"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.8.1",
+      "onFail": "download"
+    },
+    "runtime": {
+      "name": "node",
+      "version": "^26.10.0",
+      "onFail": "download"
+    }
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  }
+}
