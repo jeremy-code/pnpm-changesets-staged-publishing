@@ -1,15 +1,16 @@
 #!/bin/bash
 
-# pnpm stage publish --recursive --json \
-#   | jq --compact-output '.[] | {type: "git-tag", tag: .id, packageName: .name}' > $CHANGESETS_OUTPUT
-
-# pnpm stage publish --recursive --reporter silent --json --dry-run \
-  # | jq --compact-output '.[] | {type: "git-tag", tag: .id, packageName: .name}' > $CHANGESETS_OUTPUT
-
 pnpm stage publish --recursive --report-summary
 
-cat pnpm-publish-summary.json \
-  | jq --compact-output '.publishedPackages[] | {type: "git-tag", tag: .id, packageName: .name}' > $CHANGESETS_OUTPUT
+if [[ ! -f pnpm-publish-summary.json ]]; then
+  echo "pnpm-publish-summary.json was not found" >&2
+  exit 1
+fi
 
+jq \
+  --compact-output \
+  '.publishedPackages[] | {type: "git-tag", tag: "v\(.version)", packageName: .name}' \
+  pnpm-publish-summary.json
+  > $CHANGESETS_OUTPUT
 
-# pnpm stage publish
+rm -f pnpm-publish-summary.json
