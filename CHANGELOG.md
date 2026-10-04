@@ -1,5 +1,11 @@
 # @jeremynguyen/pnpm-changesets-staged-publishing
 
+## 0.0.2
+
+### Patch Changes
+
+- [`98e7a6e`](https://github.com/jeremy-code/pnpm-changesets-staged-publishing/commit/98e7a6e95e7107642172c844c19bfb43fb6ce35a) Thanks [@jeremy-code](https://github.com/jeremy-code)! - chore: fix script
+
 ## 0.0.1
 
 ### Patch Changes
