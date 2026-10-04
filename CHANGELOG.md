@@ -1,5 +1,11 @@
 # @jeremynguyen/pnpm-changesets-staged-publishing
 
+## 0.0.11
+
+### Patch Changes
+
+- [`c143d50`](https://github.com/jeremy-code/pnpm-changesets-staged-publishing/commit/c143d500e615342840d850562c742b670b2642ad) Thanks [@jeremy-code](https://github.com/jeremy-code)! - chore: i think i forgot that i need to have a changeset
+
 ## 0.0.6
 
 ### Patch Changes
