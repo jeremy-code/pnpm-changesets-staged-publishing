@@ -1,5 +1,11 @@
 # @jeremynguyen/pnpm-changesets-staged-publishing
 
+## 0.0.6
+
+### Patch Changes
+
+- [`8e064ea`](https://github.com/jeremy-code/pnpm-changesets-staged-publishing/commit/8e064ea22bb9dd36a82a77517cef88a6d21f4eed) Thanks [@jeremy-code](https://github.com/jeremy-code)! - chore: does it work with no reporter?
+
 ## 0.0.5
 
 ### Patch Changes
