@@ -1,5 +1,7 @@
 function isNumber(value: unknown): value is number {
-  return typeof value === "number" && Number.isFinite(value);
+  const typeofValue = typeof value;
+
+  return typeofValue === "number" && Number.isFinite(value);
 }
 
 export { isNumber };

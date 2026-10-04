@@ -1,7 +1,6 @@
 {
   "name": "@jeremynguyen/pnpm-changesets-staged-publishing",
   "version": "0.0.0",
-  "private": "false",
   "description": "",
   "repository": {
     "type": "git",
