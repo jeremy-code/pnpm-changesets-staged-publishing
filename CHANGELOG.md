@@ -1,5 +1,11 @@
 # @jeremynguyen/pnpm-changesets-staged-publishing
 
+## 0.0.3
+
+### Patch Changes
+
+- [`14e4e22`](https://github.com/jeremy-code/pnpm-changesets-staged-publishing/commit/14e4e22253597c651046fa52f2ad16d0d441b852) Thanks [@jeremy-code](https://github.com/jeremy-code)! - chore: add publish script
+
 ## 0.0.2
 
 ### Patch Changes
