@@ -14,3 +14,5 @@ allowBuilds:
 
 # Other settings (https://pnpm.io/settings/other)
 shellEmulator: true
+
+gitChecks: false
