@@ -9,7 +9,7 @@ fi
 
 jq \
   --compact-output \
-  '.publishedPackages[] | {type: "git-tag", tag: "v\(.version)", packageName: .name}' \
+  '.publishedPackages[] | {type: "git-tag", tag: .id, packageName: .name}' \
   pnpm-publish-summary.json
   > $CHANGESETS_OUTPUT
 
