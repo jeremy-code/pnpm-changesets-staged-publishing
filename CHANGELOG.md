@@ -1,5 +1,11 @@
 # @jeremynguyen/pnpm-changesets-staged-publishing
 
+## 0.0.4
+
+### Patch Changes
+
+- [`ae9ac35`](https://github.com/jeremy-code/pnpm-changesets-staged-publishing/commit/ae9ac35f80b0e93b912dfb36e6a148415bee7a60) Thanks [@jeremy-code](https://github.com/jeremy-code)! - chore: set CHANGESETS_OUTPUT variable for changsets output file
+
 ## 0.0.3
 
 ### Patch Changes
